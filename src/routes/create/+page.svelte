@@ -84,7 +84,7 @@
 						</div>
 					{/each}
 				</div>
-			<button class="btn btn-primary w-full mt-5" on:click={Create} >Enviar!</button>
+			<button class="btn btn-success w-full mt-5" on:click={Create} >Enviar!</button>
 		</div>
 	</div>
 </div>

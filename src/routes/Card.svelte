@@ -6,13 +6,13 @@
 	export let id = "";
 </script>
 
-<div class='card w-96	bg-base-200 shadow-xl p-6'>
-	<figure><img src={card_image_link} alt={card_image_alt}></figure>
+<div class='card w-96 shadow-xl image-full'>
+	<figure><img class='w-96 aspect-video' src={card_image_link} alt={card_image_alt}></figure>
 	<div class='card-body'>
-		<h2 class="card-title">{card_title}</h2>
+		<h2 class="card-title bg-accent-content/50 p-3 px-5 rounded-lg w-fit	">{card_title}</h2>
 		<p>{card_description}</p>
-	</div>
-	<div class="card-actions justify-center">
-		<a href="/q/{id}" class="btn btn-primary w-full">Quiss</a>
+		<div class="card-actions justify-end">
+			<a href="/q/{id}" class="btn btn-success hover:scale-110">Quiss</a>
+		</div>
 	</div>
 </div>
